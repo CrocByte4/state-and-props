@@ -15,7 +15,9 @@ export default function Child({ name, surname }) {
         This character`s name is {name} {surname}
       </h2>
       <img src={rain} alt="Leo the Lion" onClick={handlePet} />
-      <p>Number of pets on their head 👋: {petsOnTheHead}</p>
+      <p>
+        Number of pets on {name}`s head 👋: {petsOnTheHead}
+      </p>
     </div>
   );
 }
